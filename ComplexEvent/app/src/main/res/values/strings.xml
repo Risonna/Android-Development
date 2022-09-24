@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComplexEvent</string>
+    <string name="Save_text">Нажмите на кнопку и тест сохранится здесь!</string>
+    <string name="save">Сохранить</string>
+    <string name="really_save">Точно сохранить?</string>
+    <string name="input_text">Введите текст</string>
+</resources>
