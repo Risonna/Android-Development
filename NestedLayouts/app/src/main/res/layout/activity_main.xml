@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
 
@@ -14,32 +14,32 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/Textview1"
+            android:id="@+id/Textview1L1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+            android:text="@string/textview">
 
         </TextView>
 
         <TextView
-            android:id="@+id/Textview2"
+            android:id="@+id/Textview2L1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+>
 
         </TextView>
 
         <TextView
-            android:id="@+id/Textview3"
+            android:id="@+id/Textview3L1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+>
 
         </TextView>
     </LinearLayout>
@@ -51,69 +51,82 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/Textview1L2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+            android:text="@string/textview">
 
         </TextView>
 
         <TextView
+            android:id="@+id/Textview2L2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+>
 
         </TextView>
 
         <TextView
+            android:id="@+id/Textview3L2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="TextView">
+>
 
         </TextView>
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="534dp">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1C1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="72dp"
-            android:text="TextView"
-            app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:layout_marginTop="96dp"
+            android:text="@string/textview"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="58dp"
+            android:id="@+id/textView2C1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="96dp"
             android:layout_marginEnd="72dp"
-            android:text="TextView"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/textView1C1"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3C1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="164dp"
-            android:text="TextView"
-            app:layout_constraintEnd_toStartOf="@+id/textView2"
-            app:layout_constraintStart_toEndOf="@+id/textView"
+
+            app:layout_constraintEnd_toStartOf="@+id/textView2C1"
+            app:layout_constraintStart_toEndOf="@+id/textView1C1"
             app:layout_constraintTop_toTopOf="parent" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <Button
+        android:id="@+id/MainButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="visible">
+
+    </Button>
 
 </LinearLayout>
