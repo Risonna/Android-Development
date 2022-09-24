@@ -84,7 +84,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayer"
         android:layout_width="match_parent"
-        android:layout_height="534dp">
+        android:layout_height="510dp">
 
         <TextView
             android:id="@+id/textView1C1"
@@ -124,7 +124,8 @@
     <Button
         android:id="@+id/MainButton"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="match_parent"
+        android:text="@string/roll"
         android:visibility="visible">
 
     </Button>

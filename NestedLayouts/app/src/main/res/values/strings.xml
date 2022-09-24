@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NestedLayouts</string>
     <string name="textview">1</string>
+    <string name="roll">ROLL!</string>
 </resources>
