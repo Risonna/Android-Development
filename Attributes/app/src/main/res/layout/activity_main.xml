@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textEditSomething"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp" />
+
+
+    <Button
+        android:id="@+id/blackTextButton"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:text="Черный текст" />
+
+    <Button
+        android:id="@+id/redTextButton"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/blackTextButton"
+        android:layout_toRightOf="@+id/blackTextButton"
+        android:layout_marginLeft="80px"
+        android:text="Красный текст" />
+
+    <Button
+        android:id="@+id/size8SPButton"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/blackTextButton"
+        android:layout_alignLeft="@+id/blackTextButton"
+        android:text="Размер - 8SP" />
+
+    <Button
+        android:id="@+id/razmer24SP"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/size8SPButton"
+        android:layout_toRightOf="@+id/size8SPButton"
+        android:layout_marginLeft="80px"
+        android:text="Размер 24SP" />
+
+    <Button
+        android:id="@+id/whiteBackground"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/size8SPButton"
+        android:layout_alignLeft="@+id/size8SPButton"
+        android:text="Белый фон" />
+
+    <Button
+        android:id="@+id/yellowBackground"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/whiteBackground"
+        android:layout_toRightOf="@+id/whiteBackground"
+        android:layout_marginLeft="80px"
+        android:text="Жёлтый фон" />
+
+
+</RelativeLayout>
