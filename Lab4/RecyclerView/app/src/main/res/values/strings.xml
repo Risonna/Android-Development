@@ -1,12 +1,12 @@
 <resources>
    <string-array name="colornames">
        <item>Black</item>
-       <item>White</item>
        <item>Yellow</item>
        <item>Red</item>
        <item>Blue</item>
+       <item>Lime</item>
        <item>Pink</item>
-       <item>Purple</item>
+       <item>Grey</item>
    </string-array>
     <string name="app_name"> "RecycledView" </string>
 </resources>

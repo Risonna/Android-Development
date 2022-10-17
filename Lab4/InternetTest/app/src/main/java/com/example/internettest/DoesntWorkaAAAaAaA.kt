@@ -15,6 +15,12 @@ fun getURLData(myURL: URL){
 
     val myConnection: HttpURLConnection = myURL.openConnection() as HttpURLConnection
     try {
+        myConnection.apply {
+            connectTimeout = 10000
+            requestMethod = "GET"
+            doInput = true //inputStream
+        }
+
 
         val val1 = InputStreamReader(myConnection.inputStream)
 
@@ -25,7 +31,7 @@ fun getURLData(myURL: URL){
         }
 
 
-        Log.d("sosat", logString)
+        Log.d("FlickrCat", logString)
     }
     catch (e: Exception){
         Log.d("Internet Error", e.toString())

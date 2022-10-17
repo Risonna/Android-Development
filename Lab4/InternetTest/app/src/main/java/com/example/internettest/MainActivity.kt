@@ -1,12 +1,8 @@
 package com.example.internettest
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import java.io.InputStreamReader
-import java.lang.Exception
-import java.net.HttpURLConnection
 import java.net.URL
 
 

@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), CellClickListener {
         recyclerView.adapter = Adapter(this, fetchList(), this)
     }
 
+
     @RequiresApi(Build.VERSION_CODES.O)
     private fun fetchList(): ArrayList<ColorData>{
         val listcolor = getColorList()
