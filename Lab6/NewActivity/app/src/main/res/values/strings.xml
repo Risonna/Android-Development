@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NewActivity</string>
+    <string name="BUTTON_WITH_PIC">КНОПКА С КАРТИНКОЙ</string>
+</resources>
